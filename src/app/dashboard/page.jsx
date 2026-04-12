@@ -1,4 +1,4 @@
-import DashBoardPage from '@/Components/AllPages/Dashboard/DashBoard';
+import DashBoardPage from "@/Components/AllPages/Dashboard/DashBoard";
 
 const page = () => {
   return (
