@@ -1,5 +1,6 @@
-import { Heart, ShoppingCart } from 'lucide-react';
 import MyNavLink from './MyNavLink';
+import { LucideShoppingCart, Heart } from 'lucide-react';
+import { LucideHeart } from 'lucide-react';
 
 const navItems = [
   {
@@ -39,10 +40,11 @@ const NavBar = () => {
           {/* Right Side Icons Shop */}
           <div className="flex items-center gap-4">
             <div className="p-1 rounded-full bg-white">
-              <ShoppingCart color="black" />
+              {/* <ShoppingCart color="black" /> */}
+              <LucideShoppingCart color="black" />
             </div>
             <div className="p-1 rounded-full bg-white">
-              <Heart color="black" />
+              <LucideHeart color="black" />
             </div>
           </div>
         </nav>
