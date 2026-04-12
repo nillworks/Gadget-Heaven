@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
       data-theme="light"
       className={`${sora.className} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">
+      <body className=" bg-[#F6F6F6] min-h-full flex flex-col">
         <NavBar />
         {children}
         <Footer />

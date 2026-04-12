@@ -3,7 +3,7 @@ import HeroImage from './HeroImage';
 const HeroSection = () => {
   return (
     <section className="">
-      <div className="containers px-2 mx-auto  py-15 pb-36 bg-primaryColor">
+      <div className="containers px-2 mx-auto  py-15 pb-36 rounded-b-lg bg-primaryColor">
         {/* Title and SubTitle */}
         <div className="text-center flex items-center justify-center flex-col gap-5">
           <h1 className="text-2xl sm:text-3xl text-white font-bold">

@@ -1,3 +1,4 @@
+import ExploreCuttingEdgeGadgets from './ExploreCuttingEdgeGadgets/ExploreCuttingEdgeGadgets';
 import HeroSection from './HeroSection';
 
 const HomePage = () => {
@@ -6,6 +7,10 @@ const HomePage = () => {
       <header>
         <HeroSection />
       </header>
+
+      <main className="containers mx-auto px-3 py-20">
+        <ExploreCuttingEdgeGadgets />
+      </main>
     </>
   );
 };
