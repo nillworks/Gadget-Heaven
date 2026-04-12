@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
 import NavBar from '@/Components/Shared/NavBar';
@@ -10,6 +11,16 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: '--font-geist-mono',
   subsets: ['latin'],
+=======
+import "./globals.css";
+import NavBar from "@/Components/Shared/NavBar";
+import { Sora } from "next/font/google";
+
+const sora = Sora({
+  subsets: ["latin"],
+  variable: "--font-sora",
+  weight: ["300", "400", "500", "600", "700"],
+>>>>>>> cc7ad98bb0a23c1565a11a82fabad9b81d0ab0eb
 });
 
 export const metadata = {
@@ -22,7 +33,11 @@ export default function RootLayout({ children }) {
     <html
       lang="en"
       data-theme="light"
+<<<<<<< HEAD
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+=======
+      className={`${sora.className} h-full antialiased`}
+>>>>>>> cc7ad98bb0a23c1565a11a82fabad9b81d0ab0eb
     >
       <body className="min-h-full flex flex-col">
         <NavBar />
