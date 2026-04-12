@@ -9,7 +9,7 @@ const navItems = [
   },
   {
     path: '/statistics',
-    text: 'Dashboard',
+    text: 'Statistics',
   },
   {
     path: '/dashboard',
