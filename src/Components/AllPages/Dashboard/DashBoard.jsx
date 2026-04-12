@@ -5,6 +5,8 @@ import ProductCards from "./ProductCard";
 const DashBoard = () => {
   const [active, setActive] = useState("cart");
 
+  // ""
+
   return (
     <section>
       <div className="bg-primaryColor text-white flex flex-col items-center justify-center h-80 text-center space-y-4">
