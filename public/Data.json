@@ -1,0 +1,172 @@
+[
+  {
+    "product_id": "P001",
+    "product_title": "Apple iPhone 15 Pro Max",
+    "product_image": "https://example.com/iphone15promax.jpg",
+    "category": "Smartphones",
+    "price": 1299,
+    "description": "Experience the ultimate smartphone with the iPhone 15 Pro Max.",
+    "specification": [
+      "6.7-inch Super Retina XDR display",
+      "A17 Bionic chip",
+      "Triple-camera system",
+      "LiDAR Scanner",
+      "Up to 2TB storage"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P002",
+    "product_title": "Samsung Galaxy S24 Ultra",
+    "product_image": "https://example.com/galaxys24ultra.jpg",
+    "category": "Smartphones",
+    "price": 1199,
+    "description": "Powerful Android flagship with cutting-edge AI features.",
+    "specification": [
+      "6.8-inch Dynamic AMOLED",
+      "Snapdragon 8 Gen 3",
+      "200MP camera",
+      "5000mAh battery",
+      "S Pen support"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P003",
+    "product_title": "MacBook Pro M3",
+    "product_image": "https://example.com/macbookm3.jpg",
+    "category": "Laptops",
+    "price": 1999,
+    "description": "Next-gen performance with Apple M3 chip.",
+    "specification": [
+      "14-inch Retina display",
+      "M3 chip",
+      "16GB RAM",
+      "512GB SSD",
+      "All-day battery"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "P004",
+    "product_title": "Dell XPS 13",
+    "product_image": "https://example.com/dellxps13.jpg",
+    "category": "Laptops",
+    "price": 1399,
+    "description": "Compact and powerful ultrabook for professionals.",
+    "specification": [
+      "13.4-inch FHD+ display",
+      "Intel Core i7",
+      "16GB RAM",
+      "512GB SSD",
+      "Lightweight design"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P005",
+    "product_title": "Sony WH-1000XM5",
+    "product_image": "https://example.com/sonyheadphone.jpg",
+    "category": "Headphones",
+    "price": 399,
+    "description": "Industry-leading noise canceling headphones.",
+    "specification": [
+      "Noise Cancellation",
+      "30-hour battery",
+      "Touch controls",
+      "Premium sound",
+      "Bluetooth 5.2"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P006",
+    "product_title": "Apple Watch Series 9",
+    "product_image": "https://example.com/applewatch9.jpg",
+    "category": "Smartwatch",
+    "price": 499,
+    "description": "Advanced health tracking and smart features.",
+    "specification": [
+      "Always-On Retina display",
+      "Heart rate monitor",
+      "GPS + Cellular",
+      "Water resistant",
+      "Fitness tracking"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P007",
+    "product_title": "iPad Air M2",
+    "product_image": "https://example.com/ipadair.jpg",
+    "category": "Tablets",
+    "price": 799,
+    "description": "Powerful tablet with M2 chip performance.",
+    "specification": [
+      "10.9-inch Liquid Retina",
+      "M2 chip",
+      "Touch ID",
+      "Apple Pencil support",
+      "All-day battery"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P008",
+    "product_title": "Canon EOS R6",
+    "product_image": "https://example.com/canonr6.jpg",
+    "category": "Cameras",
+    "price": 2499,
+    "description": "Professional mirrorless camera with high performance.",
+    "specification": [
+      "20MP Full-frame sensor",
+      "4K video",
+      "Image stabilization",
+      "Dual card slots",
+      "Fast autofocus"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "P009",
+    "product_title": "Logitech MX Master 3S",
+    "product_image": "https://example.com/logitechmouse.jpg",
+    "category": "Accessories",
+    "price": 99,
+    "description": "Premium wireless mouse for productivity.",
+    "specification": [
+      "Ergonomic design",
+      "Silent clicks",
+      "USB-C charging",
+      "Multi-device support",
+      "Precision scroll"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P010",
+    "product_title": "Samsung 55\" QLED TV",
+    "product_image": "https://example.com/samsungtv.jpg",
+    "category": "Television",
+    "price": 899,
+    "description": "Stunning 4K QLED display with smart features.",
+    "specification": [
+      "55-inch QLED display",
+      "4K UHD",
+      "Smart TV",
+      "HDR10+",
+      "Voice control"
+    ],
+    "availability": true,
+    "rating": 4.6
+  }
+]
