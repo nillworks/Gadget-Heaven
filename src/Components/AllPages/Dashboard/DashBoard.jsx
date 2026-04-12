@@ -1,5 +1,5 @@
 const DashBoardPage = () => {
-  return <div>DashBoard Page</div>;
+  return <div className="py-10"></div>;
 };
 
 export default DashBoardPage;
