@@ -1,5 +1,5 @@
-import { LucideHeart, LucideShoppingCart, LucideStar } from 'lucide-react';
-import React from 'react';
+import { LucideHeart, LucideShoppingCart, LucideStar } from "lucide-react";
+import React from "react";
 
 const ProductDetails = () => {
   return (
@@ -9,7 +9,7 @@ const ProductDetails = () => {
           <div className="text-center pt-8 pb-8">
             <h1 className="font-bold text-white text-3xl">Product Details</h1>
             <p className="text-base text-white">
-              Explore the latest gadgets that will take your experience to{' '}
+              Explore the latest gadgets that will take your experience to{" "}
               <br />
               the next level. From smart devices to the coolest accessories, we
               have it all!
@@ -21,7 +21,7 @@ const ProductDetails = () => {
         <div className="card lg:card-side bg-base-100 shadow-sm rounded-xl">
           <figure className="border-l-32 border-r-32 border-t-32 border-b-32 lg:border-r-0 border-white rounded-2xl">
             <img
-              className="w-[373px] bg-[#ECECEC] rounded-2xl"
+              className="w-[374px] bg-[#ECECEC] rounded-2xl"
               src="https://i.ibb.co.com/C3cvQXGp/image.png"
               alt="Album"
             />
