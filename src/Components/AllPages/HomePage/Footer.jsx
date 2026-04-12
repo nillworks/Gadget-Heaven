@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
 const Footer = () => {
   return (
-    <div>
+    <footer className="bg-white">
       <div className="container mx-auto">
         <footer className="footer footer-horizontal footer-center text-base-content rounded p-10">
           <div className="text-center space-y-2">
@@ -36,7 +36,7 @@ const Footer = () => {
           </div>
         </footer>
       </div>
-    </div>
+    </footer>
   );
 };
 
