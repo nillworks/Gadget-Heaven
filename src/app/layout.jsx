@@ -1,7 +1,7 @@
 import './globals.css';
 import NavBar from '@/Components/Shared/NavBar';
 import { Sora } from 'next/font/google';
-import Footer from './../Components/AllPages/HomePage/Footer';
+import Footer from '../Components/AllPages/HomePage/Footer';
 
 const sora = Sora({
   subsets: ['latin'],
