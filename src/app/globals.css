@@ -1,2 +1,13 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 @plugin "daisyui";
+
+@theme {
+  --color-primaryColor: #9538e2;
+  --color-primaryBg: #f6f6f6;
+}
+
+@layer utilities {
+  .containers {
+    @apply max-w-[1440px];
+  }
+}
