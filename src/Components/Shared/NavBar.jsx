@@ -1,70 +1,55 @@
-import MyNavLink from "./MyNavLink";
+import MyNavLink from './MyNavLink';
+import { LucideShoppingCart, Heart } from 'lucide-react';
+import { LucideHeart } from 'lucide-react';
+
+const navItems = [
+  {
+    path: '/',
+    text: 'Home',
+  },
+  {
+    path: '/statistics',
+    text: 'Dashboard',
+  },
+  {
+    path: '/dashboard',
+    text: 'Dashboard',
+  },
+];
 
 const NavBar = () => {
-  const navItems = [
-    {
-      path: "/",
-      text: "Home",
-    },
-    {
-      path: "/statistics",
-      text: "Dashboard",
-    },
-    {
-      path: "/dashboard",
-      text: "Dashboard",
-    },
-  ];
-
+  const li = navItems.map((item, i) => (
+    <MyNavLink key={i} hrefPath={item.path}>
+      {item.text}
+    </MyNavLink>
+  ));
   return (
-    <section>
-      <div className="navbar bg-base-100 shadow-sm">
-        <div className="navbar-start">
-          <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                {" "}
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h8m-8 6h16"
-                />{" "}
-              </svg>
-            </div>
-            <ul
-              tabIndex="-1"
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
-            >
-              {navItems.map((nav, ind) => (
-                <MyNavLink key={ind} href={nav.path}>
-                  {nav.text}
-                </MyNavLink>
-              ))}
-            </ul>
+    <div className="pt-4">
+      <div className="containers mx-auto bg-primaryColor text-white rounded-t-lg">
+        <nav className="flex items-center justify-between py-4 px-3 ">
+          {/* logo */}
+          <div>
+            <h2 className="text-2xl font-bold">Gadget Heaven</h2>
           </div>
-          <a className="btn btn-ghost text-xl">daisyUI</a>
-        </div>
-        <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 gap-10 flex items-center">
-            {navItems.map((nav, ind) => (
-              <MyNavLink key={ind} href={nav.path}>
-                {nav.text}
-              </MyNavLink>
-            ))}
-          </ul>
-        </div>
-        <div className="navbar-end">
-          <a className="btn">Button</a>
-        </div>
+
+          {/* Navigation Menu */}
+          <div className="hidden md:flex">
+            <ul className="flex items-center gap-5">{li}</ul>
+          </div>
+
+          {/* Right Side Icons Shop */}
+          <div className="flex items-center gap-4">
+            <div className="p-1 rounded-full bg-white">
+              {/* <ShoppingCart color="black" /> */}
+              <LucideShoppingCart color="black" />
+            </div>
+            <div className="p-1 rounded-full bg-white">
+              <LucideHeart color="black" />
+            </div>
+          </div>
+        </nav>
       </div>
-    </section>
+    </div>
   );
 };
 

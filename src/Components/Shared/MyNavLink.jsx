@@ -1,15 +1,15 @@
-"use client";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
+'use client';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
-const MyNavLink = ({ href, children }) => {
+const MyNavLink = ({ hrefPath, children }) => {
   const pathName = usePathname();
 
   return (
     <nav>
       <Link
-        href={href}
-        className={`pb-1 font-semibold ${pathName === href ? "border-b-2 border-purple-600  text-purple-600" : ""}`}
+        href={hrefPath}
+        className={`pb-1 font-semibold ${pathName === hrefPath ? 'border-b border-white' : ''}`}
       >
         {children}
       </Link>

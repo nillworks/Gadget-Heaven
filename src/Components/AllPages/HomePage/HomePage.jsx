@@ -1,7 +1,11 @@
+import HeroSection from './HeroSection';
+
 const HomePage = () => {
   return (
     <>
-      <header>Gadget Heaven</header>
+      <header>
+        <HeroSection />
+      </header>
     </>
   );
 };
