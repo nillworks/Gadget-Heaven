@@ -16,7 +16,7 @@ const ProductDetails = () => {
             </p>
           </div>
           <div className="card lg:card-side bg-base-100 shadow-sm rounded-xl">
-            <figure className="border-l-32 border-t-32 border-b-32 border-r-0 border-white rounded-2xl">
+            <figure className="border-l-32 border-r-32 border-t-32 border-b-32 lg:border-r-0 border-white rounded-2xl">
               <img
                 className="w-[373px] bg-[#ECECEC] rounded-2xl"
                 src="https://i.ibb.co.com/C3cvQXGp/image.png"
