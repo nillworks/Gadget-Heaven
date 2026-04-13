@@ -2,7 +2,7 @@
   {
     "product_id": "P001",
     "product_title": "Apple iPhone 15 Pro Max",
-    "product_image": "https://example.com/iphone15promax.jpg",
+    "product_image": "https://placehold.co/600x400/png",
     "category": "Smartphones",
     "price": 1299,
     "description": "Experience the ultimate smartphone with the iPhone 15 Pro Max.",
@@ -19,7 +19,7 @@
   {
     "product_id": "P002",
     "product_title": "Samsung Galaxy S24 Ultra",
-    "product_image": "https://example.com/galaxys24ultra.jpg",
+    "product_image": "https://placehold.co/600x400/png",
     "category": "Smartphones",
     "price": 1199,
     "description": "Powerful Android flagship with cutting-edge AI features.",
@@ -36,7 +36,7 @@
   {
     "product_id": "P003",
     "product_title": "MacBook Pro M3",
-    "product_image": "https://example.com/macbookm3.jpg",
+    "product_image": "https://placehold.co/600x400/png",
     "category": "Laptops",
     "price": 1999,
     "description": "Next-gen performance with Apple M3 chip.",
@@ -53,7 +53,7 @@
   {
     "product_id": "P004",
     "product_title": "Dell XPS 13",
-    "product_image": "https://example.com/dellxps13.jpg",
+    "product_image": "https://placehold.co/600x400/png",
     "category": "Laptops",
     "price": 1399,
     "description": "Compact and powerful ultrabook for professionals.",
@@ -70,7 +70,7 @@
   {
     "product_id": "P005",
     "product_title": "Sony WH-1000XM5",
-    "product_image": "https://example.com/sonyheadphone.jpg",
+    "product_image": "https://placehold.co/600x400/png",
     "category": "Headphones",
     "price": 399,
     "description": "Industry-leading noise canceling headphones.",
@@ -87,7 +87,7 @@
   {
     "product_id": "P006",
     "product_title": "Apple Watch Series 9",
-    "product_image": "https://example.com/applewatch9.jpg",
+    "product_image": "https://placehold.co/600x400/png",
     "category": "Smartwatch",
     "price": 499,
     "description": "Advanced health tracking and smart features.",
@@ -104,7 +104,7 @@
   {
     "product_id": "P007",
     "product_title": "iPad Air M2",
-    "product_image": "https://example.com/ipadair.jpg",
+    "product_image": "https://placehold.co/600x400/png",
     "category": "Tablets",
     "price": 799,
     "description": "Powerful tablet with M2 chip performance.",
@@ -121,7 +121,7 @@
   {
     "product_id": "P008",
     "product_title": "Canon EOS R6",
-    "product_image": "https://example.com/canonr6.jpg",
+    "product_image": "https://placehold.co/600x400/png",
     "category": "Cameras",
     "price": 2499,
     "description": "Professional mirrorless camera with high performance.",
@@ -138,7 +138,7 @@
   {
     "product_id": "P009",
     "product_title": "Logitech MX Master 3S",
-    "product_image": "https://example.com/logitechmouse.jpg",
+    "product_image": "https://placehold.co/600x400/png",
     "category": "Accessories",
     "price": 99,
     "description": "Premium wireless mouse for productivity.",
@@ -155,7 +155,7 @@
   {
     "product_id": "P010",
     "product_title": "Samsung 55\" QLED TV",
-    "product_image": "https://example.com/samsungtv.jpg",
+    "product_image": "https://placehold.co/600x400/png",
     "category": "Television",
     "price": 899,
     "description": "Stunning 4K QLED display with smart features.",
@@ -168,5 +168,175 @@
     ],
     "availability": true,
     "rating": 4.6
+  },
+  {
+    "product_id": "P011",
+    "product_title": "Google Pixel 8 Pro",
+    "product_image": "https://placehold.co/600x400/png",
+    "category": "Smartphones",
+    "price": 1099,
+    "description": "Google’s flagship phone with advanced AI photography.",
+    "specification": [
+      "6.7-inch OLED display",
+      "Google Tensor G3",
+      "50MP triple camera",
+      "Android 14",
+      "All-day battery"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P012",
+    "product_title": "HP Spectre x360",
+    "product_image": "https://placehold.co/600x400/png",
+    "category": "Laptops",
+    "price": 1499,
+    "description": "Convertible laptop with premium design and performance.",
+    "specification": [
+      "13.5-inch OLED display",
+      "Intel Core i7",
+      "16GB RAM",
+      "1TB SSD",
+      "360-degree hinge"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P013",
+    "product_title": "Bose QuietComfort Ultra",
+    "product_image": "https://placehold.co/600x400/png",
+    "category": "Headphones",
+    "price": 429,
+    "description": "Top-tier noise cancelling with immersive audio.",
+    "specification": [
+      "Active noise cancellation",
+      "24-hour battery",
+      "Spatial audio",
+      "Comfort fit",
+      "Bluetooth 5.3"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P014",
+    "product_title": "Samsung Galaxy Watch 6",
+    "product_image": "https://placehold.co/600x400/png",
+    "category": "Smartwatch",
+    "price": 349,
+    "description": "Smartwatch with fitness and health tracking features.",
+    "specification": [
+      "AMOLED display",
+      "Heart rate tracking",
+      "Sleep monitoring",
+      "GPS",
+      "Wear OS"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P015",
+    "product_title": "Microsoft Surface Pro 9",
+    "product_image": "https://placehold.co/600x400/png",
+    "category": "Tablets",
+    "price": 999,
+    "description": "Versatile 2-in-1 tablet with laptop capabilities.",
+    "specification": [
+      "13-inch PixelSense display",
+      "Intel Core i5",
+      "8GB RAM",
+      "256GB SSD",
+      "Detachable keyboard"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "P016",
+    "product_title": "Sony Alpha A7 IV",
+    "product_image": "https://placehold.co/600x400/png",
+    "category": "Cameras",
+    "price": 2499,
+    "description": "High-end mirrorless camera for professionals.",
+    "specification": [
+      "33MP full-frame sensor",
+      "4K 60fps video",
+      "Real-time autofocus",
+      "Image stabilization",
+      "Dual slots"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "P017",
+    "product_title": "Razer DeathAdder V3",
+    "product_image": "https://placehold.co/600x400/png",
+    "category": "Accessories",
+    "price": 149,
+    "description": "High-performance gaming mouse with precision tracking.",
+    "specification": [
+      "30K DPI sensor",
+      "Ultra-lightweight",
+      "Ergonomic design",
+      "RGB lighting",
+      "Wired/Wireless"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P018",
+    "product_title": "LG 65\" OLED C3 TV",
+    "product_image": "https://placehold.co/600x400/png",
+    "category": "Television",
+    "price": 1799,
+    "description": "Premium OLED TV with stunning visuals and deep blacks.",
+    "specification": [
+      "65-inch OLED display",
+      "4K UHD",
+      "Dolby Vision",
+      "webOS Smart TV",
+      "HDMI 2.1"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "P019",
+    "product_title": "OnePlus 12",
+    "product_image": "https://placehold.co/600x400/png",
+    "category": "Smartphones",
+    "price": 899,
+    "description": "Fast and smooth flagship with powerful performance.",
+    "specification": [
+      "6.7-inch AMOLED",
+      "Snapdragon 8 Gen 3",
+      "100W fast charging",
+      "50MP camera",
+      "OxygenOS"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P020",
+    "product_title": "Lenovo ThinkPad X1 Carbon Gen 11",
+    "product_image": "https://placehold.co/600x400/png",
+    "category": "Laptops",
+    "price": 1699,
+    "description": "Business-class laptop with durability and performance.",
+    "specification": [
+      "14-inch display",
+      "Intel Core i7",
+      "16GB RAM",
+      "1TB SSD",
+      "Lightweight carbon body"
+    ],
+    "availability": true,
+    "rating": 4.8
   }
 ]
