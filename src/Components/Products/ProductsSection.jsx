@@ -7,15 +7,37 @@ const ProductSection = () => {
       <h1 className="text-2xl font-bold text-center">
         Explore Cutting-Edge Gadgets
       </h1>
-      <div className="flex mt-10 gap-4 ">
-        <aside className="w-1/4 flex flex-col bg-white p-5 rounded-2xl shadow space-y-2 h-fit">
-          <Link href="/">
+      <div className="flex flex-col lg:flex-row mt-10 gap-6">
+        <aside className="w-full lg:w-1/4 flex flex-row lg:flex-col bg-white p-5 rounded-2xl shadow gap-3 h-fit overflow-x-auto lg:overflow-visible">
+          <Link href="/" className="flex-shrink-0 lg:w-full">
             <button className="btn w-full rounded-full bg-[#9538E2] text-white">
               All Products
             </button>
           </Link>
-          <Link href="/">
-            <button className="btn w-full rounded-full">Smartphones</button>
+          <Link href="/" className="flex-shrink-0 lg:w-full">
+            <button className="btn w-full rounded-full hover:bg-neutral-200">
+              Smartphones
+            </button>
+          </Link>
+          <Link href="/" className="flex-shrink-0 lg:w-full">
+            <button className="btn w-full rounded-full hover:bg-neutral-200">
+              Laptops
+            </button>
+          </Link>
+          <Link href="/" className="flex-shrink-0 lg:w-full">
+            <button className="btn w-full rounded-full hover:bg-neutral-200">
+              Headphones
+            </button>
+          </Link>
+          <Link href="/" className="flex-shrink-0 lg:w-full">
+            <button className="btn w-full rounded-full hover:bg-neutral-200">
+              Accessories
+            </button>
+          </Link>
+          <Link href="/" className="flex-shrink-0 lg:w-full">
+            <button className="btn w-full rounded-full hover:bg-neutral-200">
+              Smartwatch
+            </button>
           </Link>
         </aside>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-5 bg-white rounded-2xl shadow">
