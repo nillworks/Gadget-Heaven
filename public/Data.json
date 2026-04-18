@@ -168,5 +168,175 @@
     ],
     "availability": true,
     "rating": 4.6
+  },
+  {
+    "product_id": "P011",
+    "product_title": "Google Pixel 8 Pro",
+    "product_image": "https://placehold.co/600x400/png",
+    "category": "Smartphones",
+    "price": 1099,
+    "description": "Google’s flagship phone with advanced AI photography.",
+    "specification": [
+      "6.7-inch OLED display",
+      "Google Tensor G3",
+      "50MP triple camera",
+      "Android 14",
+      "All-day battery"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P012",
+    "product_title": "HP Spectre x360",
+    "product_image": "https://placehold.co/600x400/png",
+    "category": "Laptops",
+    "price": 1499,
+    "description": "Convertible laptop with premium design and performance.",
+    "specification": [
+      "13.5-inch OLED display",
+      "Intel Core i7",
+      "16GB RAM",
+      "1TB SSD",
+      "360-degree hinge"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P013",
+    "product_title": "Bose QuietComfort Ultra",
+    "product_image": "https://placehold.co/600x400/png",
+    "category": "Headphones",
+    "price": 429,
+    "description": "Top-tier noise cancelling with immersive audio.",
+    "specification": [
+      "Active noise cancellation",
+      "24-hour battery",
+      "Spatial audio",
+      "Comfort fit",
+      "Bluetooth 5.3"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P014",
+    "product_title": "Samsung Galaxy Watch 6",
+    "product_image": "https://placehold.co/600x400/png",
+    "category": "Smartwatch",
+    "price": 349,
+    "description": "Smartwatch with fitness and health tracking features.",
+    "specification": [
+      "AMOLED display",
+      "Heart rate tracking",
+      "Sleep monitoring",
+      "GPS",
+      "Wear OS"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P015",
+    "product_title": "Microsoft Surface Pro 9",
+    "product_image": "https://placehold.co/600x400/png",
+    "category": "Tablets",
+    "price": 999,
+    "description": "Versatile 2-in-1 tablet with laptop capabilities.",
+    "specification": [
+      "13-inch PixelSense display",
+      "Intel Core i5",
+      "8GB RAM",
+      "256GB SSD",
+      "Detachable keyboard"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "P016",
+    "product_title": "Sony Alpha A7 IV",
+    "product_image": "https://placehold.co/600x400/png",
+    "category": "Cameras",
+    "price": 2499,
+    "description": "High-end mirrorless camera for professionals.",
+    "specification": [
+      "33MP full-frame sensor",
+      "4K 60fps video",
+      "Real-time autofocus",
+      "Image stabilization",
+      "Dual slots"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "P017",
+    "product_title": "Razer DeathAdder V3",
+    "product_image": "https://placehold.co/600x400/png",
+    "category": "Accessories",
+    "price": 149,
+    "description": "High-performance gaming mouse with precision tracking.",
+    "specification": [
+      "30K DPI sensor",
+      "Ultra-lightweight",
+      "Ergonomic design",
+      "RGB lighting",
+      "Wired/Wireless"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P018",
+    "product_title": "LG 65\" OLED C3 TV",
+    "product_image": "https://placehold.co/600x400/png",
+    "category": "Television",
+    "price": 1799,
+    "description": "Premium OLED TV with stunning visuals and deep blacks.",
+    "specification": [
+      "65-inch OLED display",
+      "4K UHD",
+      "Dolby Vision",
+      "webOS Smart TV",
+      "HDMI 2.1"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "P019",
+    "product_title": "OnePlus 12",
+    "product_image": "https://placehold.co/600x400/png",
+    "category": "Smartphones",
+    "price": 899,
+    "description": "Fast and smooth flagship with powerful performance.",
+    "specification": [
+      "6.7-inch AMOLED",
+      "Snapdragon 8 Gen 3",
+      "100W fast charging",
+      "50MP camera",
+      "OxygenOS"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P020",
+    "product_title": "Lenovo ThinkPad X1 Carbon Gen 11",
+    "product_image": "https://placehold.co/600x400/png",
+    "category": "Laptops",
+    "price": 1699,
+    "description": "Business-class laptop with durability and performance.",
+    "specification": [
+      "14-inch display",
+      "Intel Core i7",
+      "16GB RAM",
+      "1TB SSD",
+      "Lightweight carbon body"
+    ],
+    "availability": true,
+    "rating": 4.8
   }
 ]
