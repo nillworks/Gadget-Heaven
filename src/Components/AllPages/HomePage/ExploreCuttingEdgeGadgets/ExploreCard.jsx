@@ -6,17 +6,18 @@ const ExploreCard = ({ product }) => {
   return (
     <div className="w-full max-w-xs bg-white rounded-2xl p-4 shadow-sm hover:shadow-md transition">
       {/* Image */}
-      <div className="bg-[#D9D9D9] rounded-xl h-36 flex items-center justify-center overflow-hidden">
+      <div className="relative bg-[#D9D9D9] rounded-xl h-36 overflow-hidden">
         {product_image ? (
           <Image
             src={product_image}
-            alt={product_title}
-            width={200}
-            height={150}
+            alt={product_title || 'product'}
+            fill
             className="object-cover"
           />
         ) : (
-          <span className="text-gray-500 text-sm">No Image</span>
+          <span className="text-gray-500 text-sm flex items-center justify-center h-full">
+            No Image
+          </span>
         )}
       </div>
 
@@ -25,7 +26,7 @@ const ExploreCard = ({ product }) => {
         <h2 className="text-lg font-semibold text-gray-800">
           {product_title || 'Product Name'}
         </h2>
-        <p className="text-gray-500">Price: {price || '00.00k'}</p>
+        <p className="text-gray-500">Price: ${price || '00.00k'}</p>
       </div>
 
       {/* Button */}
