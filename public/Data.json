@@ -2,7 +2,7 @@
   {
     "product_id": "P001",
     "product_title": "Apple iPhone 15 Pro Max",
-    "product_image": "https://example.com/iphone15promax.jpg",
+    "product_image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569",
     "category": "Smartphones",
     "price": 1299,
     "description": "Experience the ultimate smartphone with the iPhone 15 Pro Max.",
@@ -19,7 +19,7 @@
   {
     "product_id": "P002",
     "product_title": "Samsung Galaxy S24 Ultra",
-    "product_image": "https://example.com/galaxys24ultra.jpg",
+    "product_image": "https://images.unsplash.com/photo-1705585175938-0f3d1b5b9c8d",
     "category": "Smartphones",
     "price": 1199,
     "description": "Powerful Android flagship with cutting-edge AI features.",
@@ -36,7 +36,7 @@
   {
     "product_id": "P003",
     "product_title": "MacBook Pro M3",
-    "product_image": "https://example.com/macbookm3.jpg",
+    "product_image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
     "category": "Laptops",
     "price": 1999,
     "description": "Next-gen performance with Apple M3 chip.",
@@ -53,7 +53,7 @@
   {
     "product_id": "P004",
     "product_title": "Dell XPS 13",
-    "product_image": "https://example.com/dellxps13.jpg",
+    "product_image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853",
     "category": "Laptops",
     "price": 1399,
     "description": "Compact and powerful ultrabook for professionals.",
@@ -70,7 +70,7 @@
   {
     "product_id": "P005",
     "product_title": "Sony WH-1000XM5",
-    "product_image": "https://example.com/sonyheadphone.jpg",
+    "product_image": "https://images.unsplash.com/photo-1580894908361-967195033215",
     "category": "Headphones",
     "price": 399,
     "description": "Industry-leading noise canceling headphones.",
@@ -87,7 +87,7 @@
   {
     "product_id": "P006",
     "product_title": "Apple Watch Series 9",
-    "product_image": "https://example.com/applewatch9.jpg",
+    "product_image": "https://images.unsplash.com/photo-1519741497674-611481863552",
     "category": "Smartwatch",
     "price": 499,
     "description": "Advanced health tracking and smart features.",
@@ -104,7 +104,7 @@
   {
     "product_id": "P007",
     "product_title": "iPad Air M2",
-    "product_image": "https://example.com/ipadair.jpg",
+    "product_image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0",
     "category": "Tablets",
     "price": 799,
     "description": "Powerful tablet with M2 chip performance.",
@@ -121,7 +121,7 @@
   {
     "product_id": "P008",
     "product_title": "Canon EOS R6",
-    "product_image": "https://example.com/canonr6.jpg",
+    "product_image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32",
     "category": "Cameras",
     "price": 2499,
     "description": "Professional mirrorless camera with high performance.",
@@ -138,7 +138,7 @@
   {
     "product_id": "P009",
     "product_title": "Logitech MX Master 3S",
-    "product_image": "https://example.com/logitechmouse.jpg",
+    "product_image": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04",
     "category": "Accessories",
     "price": 99,
     "description": "Premium wireless mouse for productivity.",
@@ -154,8 +154,8 @@
   },
   {
     "product_id": "P010",
-    "product_title": "Samsung 55\" QLED TV",
-    "product_image": "https://example.com/samsungtv.jpg",
+    "product_title": "Samsung 55 QLED TV",
+    "product_image": "https://images.unsplash.com/photo-1593784991095-a205069470b6",
     "category": "Television",
     "price": 899,
     "description": "Stunning 4K QLED display with smart features.",
