@@ -1,16 +1,16 @@
 import Image from 'next/image';
 
 const ExploreCard = ({ product }) => {
-  const { name, price, image } = product || {};
+  const { product_title, price, product_image } = product || {};
 
   return (
     <div className="w-full max-w-xs bg-white rounded-2xl p-4 shadow-sm hover:shadow-md transition">
       {/* Image */}
       <div className="bg-[#D9D9D9] rounded-xl h-36 flex items-center justify-center overflow-hidden">
-        {image ? (
+        {product_image ? (
           <Image
-            src={image}
-            alt={name}
+            src={product_image}
+            alt={product_title}
             width={200}
             height={150}
             className="object-cover"
@@ -23,7 +23,7 @@ const ExploreCard = ({ product }) => {
       {/* Content */}
       <div className="mt-4 space-y-1">
         <h2 className="text-lg font-semibold text-gray-800">
-          {name || 'Product Name'}
+          {product_title || 'Product Name'}
         </h2>
         <p className="text-gray-500">Price: {price || '00.00k'}</p>
       </div>
