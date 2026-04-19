@@ -7,10 +7,17 @@ import ExploreCard from './ExploreCard';
 const ExploreCuttingEdgeGadgets = ({ productData }) => {
   const [data, setData] = useState(productData);
 
+  // Filter category Products
   const handleFilterCategory = value => {
+    if (value === 'all') {
+      setData(productData);
+      return;
+    }
+
     const filterProduct = productData.filter(item =>
       item.category.toLowerCase().includes(value.toLowerCase()),
     );
+
     setData(filterProduct);
   };
 
