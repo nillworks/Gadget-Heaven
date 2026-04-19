@@ -10,9 +10,10 @@ const ExploreCard = ({ product }) => {
         {product_image ? (
           <Image
             src={product_image}
-            alt={product_title || 'product'}
+            alt="product"
             fill
-            className="object-cover"
+            sizes="(max-width: 768px) 100vw, 33vw"
+            className="object-cover rounded-xl"
           />
         ) : (
           <span className="text-gray-500 text-sm flex items-center justify-center h-full">

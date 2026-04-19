@@ -5,338 +5,218 @@
     "product_image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569",
     "category": "Smartphones",
     "price": 1299,
-    "description": "Experience the ultimate smartphone with the iPhone 15 Pro Max.",
-    "specification": [
-      "6.7-inch Super Retina XDR display",
-      "A17 Bionic chip",
-      "Triple-camera system",
-      "LiDAR Scanner",
-      "Up to 2TB storage"
-    ],
+    "description": "Ultimate flagship smartphone.",
+    "specification": ["6.7-inch display", "A17 chip", "Triple camera"],
     "availability": true,
     "rating": 4.8
   },
   {
     "product_id": "P002",
     "product_title": "Samsung Galaxy S24 Ultra",
-    "product_image": "https://images.unsplash.com/photo-1705585175938-0f3d1b5b9c8d",
+    "product_image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf",
     "category": "Smartphones",
     "price": 1199,
-    "description": "Powerful Android flagship with cutting-edge AI features.",
-    "specification": [
-      "6.8-inch Dynamic AMOLED",
-      "Snapdragon 8 Gen 3",
-      "200MP camera",
-      "5000mAh battery",
-      "S Pen support"
-    ],
+    "description": "Premium Android flagship.",
+    "specification": ["6.8-inch AMOLED", "Snapdragon 8 Gen 3"],
     "availability": true,
     "rating": 4.7
   },
   {
     "product_id": "P003",
-    "product_title": "MacBook Pro M3",
-    "product_image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
-    "category": "Laptops",
-    "price": 1999,
-    "description": "Next-gen performance with Apple M3 chip.",
-    "specification": [
-      "14-inch Retina display",
-      "M3 chip",
-      "16GB RAM",
-      "512GB SSD",
-      "All-day battery"
-    ],
-    "availability": true,
-    "rating": 4.9
-  },
-  {
-    "product_id": "P004",
-    "product_title": "Dell XPS 13",
-    "product_image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853",
-    "category": "Laptops",
-    "price": 1399,
-    "description": "Compact and powerful ultrabook for professionals.",
-    "specification": [
-      "13.4-inch FHD+ display",
-      "Intel Core i7",
-      "16GB RAM",
-      "512GB SSD",
-      "Lightweight design"
-    ],
+    "product_title": "Google Pixel 8 Pro",
+    "product_image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Pixel_Portfolio_Bay_Hazel_vZb6KiW.width-1300.jpg",
+    "category": "Smartphones",
+    "price": 999,
+    "description": "Best AI camera phone.",
+    "specification": ["Tensor G3", "AI camera"],
     "availability": true,
     "rating": 4.6
   },
   {
-    "product_id": "P005",
-    "product_title": "Sony WH-1000XM5",
-    "product_image": "https://images.unsplash.com/photo-1580894908361-967195033215",
-    "category": "Headphones",
-    "price": 399,
-    "description": "Industry-leading noise canceling headphones.",
-    "specification": [
-      "Noise Cancellation",
-      "30-hour battery",
-      "Touch controls",
-      "Premium sound",
-      "Bluetooth 5.2"
-    ],
+    "product_id": "P004",
+    "product_title": "MacBook Pro M3",
+    "product_image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
+    "category": "Laptops",
+    "price": 1999,
+    "description": "Powerful Apple laptop.",
+    "specification": ["M3 chip", "16GB RAM"],
     "availability": true,
-    "rating": 4.8
+    "rating": 4.9
+  },
+  {
+    "product_id": "P005",
+    "product_title": "Dell XPS 13",
+    "product_image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45",
+    "category": "Laptops",
+    "price": 1399,
+    "description": "Slim ultrabook.",
+    "specification": ["Intel i7", "16GB RAM"],
+    "availability": true,
+    "rating": 4.6
   },
   {
     "product_id": "P006",
-    "product_title": "Apple Watch Series 9",
-    "product_image": "https://images.unsplash.com/photo-1519741497674-611481863552",
-    "category": "Smartwatch",
-    "price": 499,
-    "description": "Advanced health tracking and smart features.",
-    "specification": [
-      "Always-On Retina display",
-      "Heart rate monitor",
-      "GPS + Cellular",
-      "Water resistant",
-      "Fitness tracking"
-    ],
+    "product_title": "HP Spectre x360",
+    "product_image": "https://images.unsplash.com/photo-1587202372775-e229f172b9d7",
+    "category": "Laptops",
+    "price": 1499,
+    "description": "Convertible laptop.",
+    "specification": ["Touch display", "360 hinge"],
     "availability": true,
-    "rating": 4.7
+    "rating": 4.5
   },
   {
     "product_id": "P007",
-    "product_title": "iPad Air M2",
-    "product_image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0",
-    "category": "Tablets",
-    "price": 799,
-    "description": "Powerful tablet with M2 chip performance.",
-    "specification": [
-      "10.9-inch Liquid Retina",
-      "M2 chip",
-      "Touch ID",
-      "Apple Pencil support",
-      "All-day battery"
-    ],
+    "product_title": "Sony WH-1000XM5",
+    "product_image": "https://images.unsplash.com/photo-1580894894513-541e068a3e2b",
+    "category": "Accessories",
+    "price": 399,
+    "description": "Noise canceling headphone.",
+    "specification": ["30hr battery", "ANC"],
     "availability": true,
     "rating": 4.8
   },
   {
     "product_id": "P008",
-    "product_title": "Canon EOS R6",
-    "product_image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32",
-    "category": "Cameras",
-    "price": 2499,
-    "description": "Professional mirrorless camera with high performance.",
-    "specification": [
-      "20MP Full-frame sensor",
-      "4K video",
-      "Image stabilization",
-      "Dual card slots",
-      "Fast autofocus"
-    ],
+    "product_title": "Logitech MX Master 3S",
+    "product_image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3",
+    "category": "Accessories",
+    "price": 99,
+    "description": "Premium mouse.",
+    "specification": ["Silent click", "USB-C"],
     "availability": true,
-    "rating": 4.9
+    "rating": 4.7
   },
   {
     "product_id": "P009",
-    "product_title": "Logitech MX Master 3S",
-    "product_image": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04",
+    "product_title": "Apple AirPods Pro",
+    "product_image": "https://cdn.i-scmp.com/sites/default/files/d8/images/methode/2019/11/01/fca6da0e-fc77-11e9-acf9-cafedce87d15_image_hires_154757.jpg",
     "category": "Accessories",
-    "price": 99,
-    "description": "Premium wireless mouse for productivity.",
-    "specification": [
-      "Ergonomic design",
-      "Silent clicks",
-      "USB-C charging",
-      "Multi-device support",
-      "Precision scroll"
-    ],
+    "price": 249,
+    "description": "Wireless earbuds.",
+    "specification": ["ANC", "Spatial audio"],
     "availability": true,
     "rating": 4.7
   },
   {
     "product_id": "P010",
-    "product_title": "Samsung 55 QLED TV",
-    "product_image": "https://images.unsplash.com/photo-1593784991095-a205069470b6",
-    "category": "Television",
-    "price": 899,
-    "description": "Stunning 4K QLED display with smart features.",
-    "specification": [
-      "55-inch QLED display",
-      "4K UHD",
-      "Smart TV",
-      "HDR10+",
-      "Voice control"
-    ],
-    "availability": true,
-    "rating": 4.6
-  },
-  {
-    "product_id": "P011",
-    "product_title": "Google Pixel 8 Pro",
-    "product_image": "https://placehold.co/600x400/png",
-    "category": "Smartphones",
-    "price": 1099,
-    "description": "Google’s flagship phone with advanced AI photography.",
-    "specification": [
-      "6.7-inch OLED display",
-      "Google Tensor G3",
-      "50MP triple camera",
-      "Android 14",
-      "All-day battery"
-    ],
+    "product_title": "Apple Watch Series 9",
+    "product_image": "https://images.unsplash.com/photo-1543512214-318c7553f230",
+    "category": "Smartwatch",
+    "price": 499,
+    "description": "Smart health watch.",
+    "specification": ["GPS", "Water resistant"],
     "availability": true,
     "rating": 4.7
   },
   {
-    "product_id": "P012",
-    "product_title": "HP Spectre x360",
-    "product_image": "https://placehold.co/600x400/png",
-    "category": "Laptops",
-    "price": 1499,
-    "description": "Convertible laptop with premium design and performance.",
-    "specification": [
-      "13.5-inch OLED display",
-      "Intel Core i7",
-      "16GB RAM",
-      "1TB SSD",
-      "360-degree hinge"
-    ],
+    "product_id": "P011",
+    "product_title": "Samsung Galaxy Watch 6",
+    "product_image": "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b",
+    "category": "Smartwatch",
+    "price": 349,
+    "description": "Android smartwatch.",
+    "specification": ["Fitness tracking"],
     "availability": true,
     "rating": 4.6
   },
   {
+    "product_id": "P012",
+    "product_title": "Fitbit Versa 4",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3OXn15Oxh_8PvigRpqMMOKlCHzgQTduFyyw&s",
+    "category": "Smartwatch",
+    "price": 229,
+    "description": "Fitness smartwatch.",
+    "specification": ["Heart rate monitor"],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
     "product_id": "P013",
-    "product_title": "Bose QuietComfort Ultra",
-    "product_image": "https://placehold.co/600x400/png",
-    "category": "Headphones",
-    "price": 429,
-    "description": "Top-tier noise cancelling with immersive audio.",
-    "specification": [
-      "Active noise cancellation",
-      "24-hour battery",
-      "Spatial audio",
-      "Comfort fit",
-      "Bluetooth 5.3"
-    ],
+    "product_title": "iPad Air M2",
+    "product_image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0",
+    "category": "Gadgets",
+    "price": 799,
+    "description": "Powerful tablet.",
+    "specification": ["M2 chip"],
     "availability": true,
     "rating": 4.8
   },
   {
     "product_id": "P014",
-    "product_title": "Samsung Galaxy Watch 6",
-    "product_image": "https://placehold.co/600x400/png",
-    "category": "Smartwatch",
-    "price": 349,
-    "description": "Smartwatch with fitness and health tracking features.",
-    "specification": [
-      "AMOLED display",
-      "Heart rate tracking",
-      "Sleep monitoring",
-      "GPS",
-      "Wear OS"
-    ],
+    "product_title": "Canon EOS R6",
+    "product_image": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd",
+    "category": "Gadgets",
+    "price": 2499,
+    "description": "Mirrorless camera.",
+    "specification": ["4K video"],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "P015",
+    "product_title": "Samsung 55 QLED TV",
+    "product_image": "https://images.unsplash.com/photo-1593784991095-a205069470b6",
+    "category": "Gadgets",
+    "price": 899,
+    "description": "4K Smart TV.",
+    "specification": ["QLED"],
     "availability": true,
     "rating": 4.6
   },
   {
-    "product_id": "P015",
-    "product_title": "Microsoft Surface Pro 9",
-    "product_image": "https://placehold.co/600x400/png",
-    "category": "Tablets",
-    "price": 999,
-    "description": "Versatile 2-in-1 tablet with laptop capabilities.",
-    "specification": [
-      "13-inch PixelSense display",
-      "Intel Core i5",
-      "8GB RAM",
-      "256GB SSD",
-      "Detachable keyboard"
-    ],
-    "availability": true,
-    "rating": 4.5
-  },
-  {
     "product_id": "P016",
-    "product_title": "Sony Alpha A7 IV",
-    "product_image": "https://placehold.co/600x400/png",
-    "category": "Cameras",
-    "price": 2499,
-    "description": "High-end mirrorless camera for professionals.",
-    "specification": [
-      "33MP full-frame sensor",
-      "4K 60fps video",
-      "Real-time autofocus",
-      "Image stabilization",
-      "Dual slots"
-    ],
+    "product_title": "PlayStation 5",
+    "product_image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db",
+    "category": "Gadgets",
+    "price": 499,
+    "description": "Next-gen console.",
+    "specification": ["4K gaming"],
     "availability": true,
     "rating": 4.9
   },
   {
     "product_id": "P017",
-    "product_title": "Razer DeathAdder V3",
-    "product_image": "https://placehold.co/600x400/png",
-    "category": "Accessories",
-    "price": 149,
-    "description": "High-performance gaming mouse with precision tracking.",
-    "specification": [
-      "30K DPI sensor",
-      "Ultra-lightweight",
-      "Ergonomic design",
-      "RGB lighting",
-      "Wired/Wireless"
-    ],
+    "product_title": "Xbox Series X",
+    "product_image": "https://images.unsplash.com/photo-1621259182978-fbf93132d53d",
+    "category": "Gadgets",
+    "price": 499,
+    "description": "Powerful console.",
+    "specification": ["4K gaming"],
     "availability": true,
-    "rating": 4.7
+    "rating": 4.8
   },
   {
     "product_id": "P018",
-    "product_title": "LG 65\" OLED C3 TV",
-    "product_image": "https://placehold.co/600x400/png",
-    "category": "Television",
-    "price": 1799,
-    "description": "Premium OLED TV with stunning visuals and deep blacks.",
-    "specification": [
-      "65-inch OLED display",
-      "4K UHD",
-      "Dolby Vision",
-      "webOS Smart TV",
-      "HDMI 2.1"
-    ],
-    "availability": true,
-    "rating": 4.9
-  },
-  {
-    "product_id": "P019",
-    "product_title": "OnePlus 12",
-    "product_image": "https://placehold.co/600x400/png",
+    "product_title": "Asus ROG Phone 7",
+    "product_image": "https://images.unsplash.com/photo-1610945264803-c22b62d2a7b3",
     "category": "Smartphones",
-    "price": 899,
-    "description": "Fast and smooth flagship with powerful performance.",
-    "specification": [
-      "6.7-inch AMOLED",
-      "Snapdragon 8 Gen 3",
-      "100W fast charging",
-      "50MP camera",
-      "OxygenOS"
-    ],
+    "price": 999,
+    "description": "Gaming smartphone.",
+    "specification": ["144Hz display"],
     "availability": true,
     "rating": 4.6
   },
   {
-    "product_id": "P020",
-    "product_title": "Lenovo ThinkPad X1 Carbon Gen 11",
-    "product_image": "https://placehold.co/600x400/png",
+    "product_id": "P019",
+    "product_title": "Lenovo Legion 5",
+    "product_image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302",
     "category": "Laptops",
-    "price": 1699,
-    "description": "Business-class laptop with durability and performance.",
-    "specification": [
-      "14-inch display",
-      "Intel Core i7",
-      "16GB RAM",
-      "1TB SSD",
-      "Lightweight carbon body"
-    ],
+    "price": 1299,
+    "description": "Gaming laptop.",
+    "specification": ["RTX GPU"],
     "availability": true,
-    "rating": 4.8
+    "rating": 4.7
+  },
+  {
+    "product_id": "P020",
+    "product_title": "Anker Power Bank",
+    "product_image": "https://images.unsplash.com/photo-1580894908361-967195033215",
+    "category": "Accessories",
+    "price": 49,
+    "description": "Fast charging power bank.",
+    "specification": ["10000mAh"],
+    "availability": true,
+    "rating": 4.5
   }
 ]
